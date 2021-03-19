@@ -8,7 +8,7 @@ import org.osgi.framework.ServiceReference;
 public class HelloClient implements BundleActivator {
 
     public void start(BundleContext context) {
-        ServiceReference serviceRef = context.getServiceReference(HelloI.class.getName());
+        ServiceReference<?> serviceRef = context.getServiceReference(HelloI.class.getName());
         HelloI service = (HelloI) context.getService(serviceRef);
         System.out.println("Client started");
         service.hello();
