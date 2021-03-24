@@ -1,8 +1,8 @@
-package service;
+package ru.itmo.masmirnov.service;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import hello.*;
+import ru.itmo.masmirnov.hello.*;
 
 public class HelloService implements BundleActivator {
 

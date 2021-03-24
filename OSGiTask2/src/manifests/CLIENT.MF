@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Hello Client
 Bundle-SymbolicName: sma_helloclient
-Bundle-Activator: client.HelloClient
+Bundle-Activator: ru.itmo.masmirnov.client.HelloClient
 Bundle-Version: 1.0
-Export-Package: client;version="1.0"
-Import-Package: hello,service;version="[1.0,2.0)",org.osgi.framework
+Export-Package: ru.itmo.masmirnov.client;version="1.0"
+Import-Package: ru.itmo.masmirnov.hello,ru.itmo.masmirnov.service;version="[1.0,2.0)",org.osgi.framework

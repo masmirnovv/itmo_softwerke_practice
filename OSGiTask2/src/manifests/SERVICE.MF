@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Hello Service
 Bundle-SymbolicName: sma_helloservice
-Bundle-Activator: service.HelloService
+Bundle-Activator: ru.itmo.masmirnov.service.HelloService
 Bundle-Version: 1.0
-Export-Package: hello,service;version="1.0"
+Export-Package: ru.itmo.masmirnov.hello,ru.itmo.masmirnov.service;version="1.0"
 Import-Package: org.osgi.framework

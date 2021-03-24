@@ -1,4 +1,4 @@
-package hello;
+package ru.itmo.masmirnov.hello;
 
 public interface HelloI {
 
