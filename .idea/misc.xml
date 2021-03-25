@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGiTask3/client" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGiTask3/service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/OSGiTask3/service/pom.xml" />
+        <option value="$PROJECT_DIR$/OSGiTask3/client/pom.xml" />
+        <option value="$PROJECT_DIR$/OSGiTask3/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="Osmorc">
+    <option name="bundlesOutputPath" value="C:\Users\masmi\AppData\Local\Temp" />
+    <option name="frameworkInstanceName" value="Felix" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
