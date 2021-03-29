@@ -1,4 +1,4 @@
 book
 felix
 *.docx
-*/target
+*/target/*

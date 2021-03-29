@@ -1,7 +1,7 @@
-package ru.itmo.masmirnov.task3.client;
+package ru.itmo.masmirnov.task3.scr_client;
 
 import org.osgi.service.component.annotations.*;
-import ru.itmo.masmirnov.task3.service.*;
+import ru.itmo.masmirnov.task3.scr_service.HelloI;
 
 @Component
 public class HelloClient {

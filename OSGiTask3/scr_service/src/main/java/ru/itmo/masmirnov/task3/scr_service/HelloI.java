@@ -1,4 +1,4 @@
-package ru.itmo.masmirnov.task3.service;
+package ru.itmo.masmirnov.task3.scr_service;
 
 public interface HelloI {
 
