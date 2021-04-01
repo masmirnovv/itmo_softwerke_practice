@@ -1,4 +1,7 @@
 book
 felix
 *.docx
-*/target/*
+/OSGiTask3/scr_service/target/
+/OSGiTask3/scr_client/target/
+/OSGiTask4/cmd/target/
+/OSGiTask4/cmd_service/target/
