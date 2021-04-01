@@ -41,7 +41,6 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Name>${project.artifactId}</Bundle-Name>
-                        <Export-Package>ru.itmo.masmirnov.task4.cmd_service</Export-Package>
                         <Private-Package>${project.groupId}.impl</Private-Package>
                         <_dsannotations>*</_dsannotations>
                         <_metatypeannotations>*</_metatypeannotations>

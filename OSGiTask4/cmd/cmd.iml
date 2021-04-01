@@ -5,7 +5,6 @@
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="cmd-1.0.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="cmd" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
           <property key="Bundle-Name" value="cmd" />
-          <property key="Export-Package" value="ru.itmo.masmirnov.task4.cmd_service" />
           <property key="Private-Package" value="ru.itmo.masmirnov.task4.cmd.impl" />
           <property key="-dsannotations" value="*" />
           <property key="-metatypeannotations" value="*" />
