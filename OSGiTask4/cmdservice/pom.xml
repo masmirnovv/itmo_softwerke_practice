@@ -11,24 +11,11 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>ru.itmo.masmirnov.task4.cmd</groupId>
-    <artifactId>cmd</artifactId>
-    <name>cmd</name>
+    <groupId>ru.itmo.masmirnov.task4.cmdservice</groupId>
+    <artifactId>cmdservice</artifactId>
+    <name>cmdservice</name>
     <packaging>bundle</packaging>
     <version>1.0</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.osgi</groupId>
-            <artifactId>osgi.enroute.base.debug.provider</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>ru.itmo.masmirnov.task4.cmdservice</groupId>
-            <artifactId>cmdservice</artifactId>
-            <version>1.0</version>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>

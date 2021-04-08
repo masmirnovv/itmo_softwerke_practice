@@ -1,9 +1,9 @@
 book
 felix
 *.docx
-.idea
-OSGiTask2/.idea
-/OSGiTask3/scr_service/target/
-/OSGiTask3/scr_client/target/
-/OSGiTask4/cmd/target/
-/OSGiTask4/cmd_service/target/
+.idea/
+OSGiTask2/.idea/
+OSGiTask3/scr_service/target/
+OSGiTask3/scr_client/target/
+OSGiTask4/cmd/target/
+OSGiTask4/cmd_service/target/

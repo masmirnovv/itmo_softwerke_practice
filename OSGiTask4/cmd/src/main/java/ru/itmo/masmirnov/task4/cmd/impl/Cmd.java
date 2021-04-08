@@ -3,7 +3,7 @@ package ru.itmo.masmirnov.task4.cmd.impl;
 import org.osgi.service.component.annotations.*;
 import osgi.enroute.debug.api.Debug;
 import ru.itmo.masmirnov.task4.cmd.CmdI;
-import ru.itmo.masmirnov.task4.cmd_service.CmdServiceI;
+import ru.itmo.masmirnov.task4.cmdservice.CmdServiceI;
 
 @Component(property = {
         Debug.COMMAND_SCOPE + "=practice",

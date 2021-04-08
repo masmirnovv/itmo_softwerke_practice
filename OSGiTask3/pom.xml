@@ -12,8 +12,8 @@
     <version>1.0</version>
 
     <modules>
-        <module>scr_client</module>
-        <module>scr_service</module>
+        <module>scrclient</module>
+        <module>scrservice</module>
     </modules>
 
     <properties>
