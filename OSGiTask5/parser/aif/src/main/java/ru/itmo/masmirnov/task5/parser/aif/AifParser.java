@@ -11,11 +11,15 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.*;
 
-@Component(immediate = true)
+@Component
 public class AifParser implements Parser {
 
     @Reference
     URLExtractor urlExtractor;
+
+    public String getName() {
+        return "aif";
+    }
 
     public List<String> parseHeadlines() throws IOException {
         String content = urlExtractor.extract("https://aif.ru/rss/news.php");
@@ -29,15 +33,15 @@ public class AifParser implements Parser {
     }
 
     // Temporary, until the rest of task is undone
-    @Activate
-    public void start(Map<String, Object> props) {
-        System.out.println("Aif parser started");
-
-        try {
-            parseHeadlines().forEach(System.out::println);
-        } catch (IOException e) {
-            System.out.println("IO Exception: " + e.getMessage());
-        }
-    }
+//    @Activate
+//    public void start(Map<String, Object> props) {
+//        System.out.println("Aif parser started");
+//
+//        try {
+//            parseHeadlines().forEach(System.out::println);
+//        } catch (IOException e) {
+//            System.out.println("IO Exception: " + e.getMessage());
+//        }
+//    }
 
 }

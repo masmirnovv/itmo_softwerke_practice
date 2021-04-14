@@ -5,6 +5,8 @@ import java.util.List;
 
 public interface Parser {
 
+    String getName();
+
     List<String> parseHeadlines() throws IOException;
 
 }

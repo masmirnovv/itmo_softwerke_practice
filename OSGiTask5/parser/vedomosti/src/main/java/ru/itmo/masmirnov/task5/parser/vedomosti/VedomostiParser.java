@@ -11,11 +11,15 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.*;
 
-@Component(immediate = true)
+@Component
 public class VedomostiParser implements Parser {
 
     @Reference
     URLExtractor urlExtractor;
+
+    public String getName() {
+        return "vedomosti";
+    }
 
     public List<String> parseHeadlines() throws IOException {
         String content = urlExtractor.extract("https://api.lenta.ru/rss");
@@ -28,14 +32,14 @@ public class VedomostiParser implements Parser {
     }
 
     // Temporary, until the rest of task is undone
-    @Activate
-    public void start() {
-        System.out.println("Vedomosti parser started");
-        try {
-            parseHeadlines().forEach(System.out::println);
-        } catch (IOException e) {
-            System.out.println("IO Exception: " + e.getMessage());
-        }
-    }
+//    @Activate
+//    public void start() {
+//        System.out.println("Vedomosti parser started");
+//        try {
+//            parseHeadlines().forEach(System.out::println);
+//        } catch (IOException e) {
+//            System.out.println("IO Exception: " + e.getMessage());
+//        }
+//    }
 
 }
