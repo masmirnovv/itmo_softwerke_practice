@@ -1,4 +1,4 @@
-package ru.itmo.masmirnov.task5.urlextractor;
+package ru.itmo.masmirnov.task5.abstractparser;
 
 import java.io.IOException;
 import java.util.List;

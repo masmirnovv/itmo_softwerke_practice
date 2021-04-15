@@ -3,7 +3,7 @@ package ru.itmo.masmirnov.task5.stats.impl;
 import org.osgi.service.component.annotations.*;
 import osgi.enroute.debug.api.Debug;
 import ru.itmo.masmirnov.task5.stats.StatsCounter;
-import ru.itmo.masmirnov.task5.urlextractor.Parser;
+import ru.itmo.masmirnov.task5.abstractparser.Parser;
 
 import java.io.IOException;
 import java.util.*;

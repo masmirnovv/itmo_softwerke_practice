@@ -19,8 +19,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>ru.itmo.masmirnov.task5.urlextractor</groupId>
-            <artifactId>urlextractor</artifactId>
+            <groupId>ru.itmo.masmirnov.task5.abstractparser</groupId>
+            <artifactId>abstractparser</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

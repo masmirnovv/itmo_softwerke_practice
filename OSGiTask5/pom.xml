@@ -12,7 +12,7 @@
     <version>1.0</version>
 
     <modules>
-        <module>urlextractor</module>
+        <module>abstractparser</module>
         <module>parser</module>
         <module>stats</module>
     </modules>
