@@ -2,6 +2,7 @@ book
 felix
 *.docx
 *.idea/
+OSGiTask2/src/build/*.jar
 OSGiTask3/lib/
 OSGiTask*/*/target/
 *.iml
