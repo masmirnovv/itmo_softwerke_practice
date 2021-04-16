@@ -41,6 +41,10 @@ public class StatsCounterImpl implements StatsCounter {
 
     public void stats(String... args) {
         int topN = DEFAULT_TOP_ENTRIES;
+        if (args == null) {
+            System.out.println("Null args? Why?");
+            return;
+        }
         switch (args.length) {
             case 0:
                 printInfo();
